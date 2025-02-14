@@ -7,7 +7,7 @@ FROM tensorflow/tensorflow
 # SHELL ["conda", "run", "-n", "cs329s", "/bin/bash", "-c"]
 
 RUN pip install tqdm obspy pandas 
-RUN pip install uvicorn fastapi
+RUN pip install uvicorn fastapi kafka-python
 
 WORKDIR /opt
 
