@@ -130,8 +130,12 @@ def extract_picks(
             else:
                 station_id = station_ids[i][j].decode() if isinstance(station_ids[i][j], bytes) else station_ids[i][j]
 
+            channel = file_name.split('.')[3]  # 例: NN.OMMB..HN.0360784.npz から HN を取得
+            channel_components = ['E', 'N', 'Z']  # 3成分のチャンネル名
+
             if (waveforms is not None) and use_amplitude:
-                amp = np.max(np.abs(waveforms[i, :, j, :]), axis=-1)  ## amplitude over three channelspy
+                amp = np.max(np.abs(waveforms[i, :, j, :]), axis=-1)
+
             for k in range(Nc - 1):  # 0-th channel noise
                 idxs, probs = detect_peaks(preds[i, :, j, k + 1], mph=mph[phases[k]], mpd=mpd, show=False)
                 for l, (phase_index, phase_prob) in enumerate(zip(idxs, probs)):
@@ -144,10 +148,10 @@ def extract_picks(
                         "phase_time": pick_time.isoformat(timespec="milliseconds"),
                         "phase_score": round(phase_prob, 3),
                         "phase_type": phases[k],
+                        "channel": f"{channel}{channel_components[j]}",
                         "dt": dt,
                     }
 
-                    ## process waveform
                     if waveforms is not None:
                         tmp = np.zeros((pre_idx + post_idx, 3))
                         lo = phase_index - pre_idx
@@ -163,7 +167,7 @@ def extract_picks(
                             next_pick = idxs[l + 1] if l < len(idxs) - 1 else (phase_index + post_idx * 3)
                             pick["phase_amplitude"] = np.max(
                                 amp[phase_index : min(phase_index + post_idx * 3, next_pick)]
-                            ).item()  ## peak amplitude
+                            ).item()
 
                     picks.append(pick)
 

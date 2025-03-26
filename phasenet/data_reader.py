@@ -18,6 +18,8 @@ import h5py
 import obspy
 from scipy.interpolate import interp1d
 from tqdm import tqdm
+from obspy.core import Trace, Stream
+from datetime import datetime
 
 
 def py_func_decorator(output_types=None, output_shapes=None, name=None):
@@ -222,48 +224,102 @@ class DataReader:
     def __len__(self):
         return self.num_data
 
-    def read_numpy(self, fname):
-        # try:
-        if fname not in self.buffer:
-            npz = np.load(fname)
-            meta = {}
-            if len(npz["data"].shape) == 2:
-                meta["data"] = npz["data"][:, np.newaxis, :]
-            else:
-                meta["data"] = npz["data"]
-            if "p_idx" in npz.files:
-                if len(npz["p_idx"].shape) == 0:
-                    meta["itp"] = [[npz["p_idx"]]]
-                else:
-                    meta["itp"] = npz["p_idx"]
-            if "s_idx" in npz.files:
-                if len(npz["s_idx"].shape) == 0:
-                    meta["its"] = [[npz["s_idx"]]]
-                else:
-                    meta["its"] = npz["s_idx"]
-            if "itp" in npz.files:
-                if len(npz["itp"].shape) == 0:
-                    meta["itp"] = [[npz["itp"]]]
-                else:
-                    meta["itp"] = npz["itp"]
-            if "its" in npz.files:
-                if len(npz["its"].shape) == 0:
-                    meta["its"] = [[npz["its"]]]
-                else:
-                    meta["its"] = npz["its"]
-            if "station_id" in npz.files:
-                meta["station_id"] = npz["station_id"]
-            if "sta_id" in npz.files:
-                meta["station_id"] = npz["sta_id"]
-            if "t0" in npz.files:
-                meta["t0"] = npz["t0"]
-            self.buffer[fname] = meta
+    def read_numpy(self, npz_file):
+        """Read numpy npz file."""
+        data = np.load(npz_file, allow_pickle=True)
+        # ファイル名からメタデータを抽出
+        filename = os.path.basename(npz_file)
+        parts = filename.split('.')
+        if len(parts) >= 4:
+            network = parts[0]
+            station = parts[1]
+            channel = parts[3]
         else:
-            meta = self.buffer[fname]
+            network = "XX"
+            station = "XXXX"
+            channel = "HHZ"
+
+        # 波形データの取得と形状の調整
+        waveform = data["data"]
+        if len(waveform.shape) == 2:
+            # 2次元データの場合、3次元に変換 (nt, 1, nch)
+            waveform = waveform[:, np.newaxis, :]
+        n_traces, n_samples, n_channels = waveform.shape
+
+        # メタデータの取得
+        dt = float(data["dt"])
+        sampling_rate = 1.0 / dt
+
+        # イベント時刻の取得と処理
+        event_time = data["event_time"]
+        if isinstance(event_time, bytes):
+            event_time = event_time.decode()
+        elif isinstance(event_time, np.ndarray):
+            event_time = event_time.item()
+        
+        # 時刻文字列のフォーマットを修正
+        if isinstance(event_time, str):
+            try:
+                # まずISO 8601形式として試す
+                event_time = datetime.fromisoformat(event_time)
+            except ValueError:
+                try:
+                    # フォーマットが異なる場合は、パースして修正
+                    # 例: 2018-12-08T02:54:29.78 -> 2018-12-08T02:54:29.780+00:00
+                    dt_obj = datetime.strptime(event_time, "%Y-%m-%dT%H:%M:%S.%f")
+                    event_time = dt_obj.replace(microsecond=dt_obj.microsecond // 1000 * 1000).isoformat() + "+00:00"
+                    event_time = datetime.fromisoformat(event_time)
+                except ValueError:
+                    # それでも失敗する場合はデフォルト値を使用
+                    event_time = datetime.fromisoformat("1970-01-01T00:00:00.000+00:00")
+        else:
+            event_time = datetime.fromisoformat("1970-01-01T00:00:00.000+00:00")
+
+        # P波とS波のピック情報を取得
+        p_idx = data.get("p_idx", None)
+        s_idx = data.get("s_idx", None)
+        
+        # ピック情報を適切な形式に変換
+        if p_idx is not None:
+            if isinstance(p_idx, np.ndarray):
+                p_idx = p_idx.tolist()
+            if not isinstance(p_idx, list):
+                p_idx = [p_idx]
+        if s_idx is not None:
+            if isinstance(s_idx, np.ndarray):
+                s_idx = s_idx.tolist()
+            if not isinstance(s_idx, list):
+                s_idx = [s_idx]
+
+        # チャンネル名の設定
+        channel_components = ['E', 'N', 'Z']  # 3成分のチャンネル名
+        traces = []
+        for i in range(n_traces):
+            # チャンネル名のインデックスが範囲内かチェック
+            channel_idx = i % len(channel_components)
+            trace = Trace(
+                data=waveform[i, 0],  # 2次元データとして取得
+                header={
+                    "network": network,
+                    "station": station,
+                    "channel": f"{channel}{channel_components[channel_idx]}",
+                    "sampling_rate": sampling_rate,
+                    "starttime": event_time,
+                    "npts": n_samples,
+                    "delta": dt,
+                }
+            )
+            traces.append(trace)
+
+        # メタデータを辞書として返す
+        meta = {
+            "data": waveform,  # 3次元データとして返す
+            "t0": event_time.isoformat(timespec="milliseconds"),
+            "station_id": [f"{network}.{station}"],
+            "itp": p_idx if p_idx is not None else [],
+            "its": s_idx if s_idx is not None else [],
+        }
         return meta
-        # except:
-        #     logging.error("Failed reading {}".format(fname))
-        #     return None
 
     def read_hdf5(self, fname):
         data = self.h5_data[fname][()]
@@ -433,7 +489,7 @@ class DataReader:
             if len(station_ids) > 1:
                 print(f"{station_ids = }")
                 raise
-            assert (len(station_ids) == 1, f"Error: {fname} has multiple stations {station_ids}")
+            assert len(station_ids) == 1, f"Error: {fname} has multiple stations {station_ids}"
 
             begin_time = min([st.stats.starttime for st in traces])
             end_time = max([st.stats.endtime for st in traces])
