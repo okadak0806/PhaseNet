@@ -433,7 +433,7 @@ class DataReader:
             if len(station_ids) > 1:
                 print(f"station_ids = {station_ids}")
                 raise
-            assert (len(station_ids) == 1, f"Error: {fname} has multiple stations {station_ids}")
+            assert len(station_ids) == 1, f"Error: {fname} has multiple stations {station_ids}"
 
             begin_time = min([st.stats.starttime for st in traces])
             end_time = max([st.stats.endtime for st in traces])

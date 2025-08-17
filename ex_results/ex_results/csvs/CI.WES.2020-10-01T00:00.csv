@@ -1,0 +1,2 @@
+station_id,begin_time,phase_index,phase_time,phase_score,phase_type,phase_amplitude
+CI.WES..HH,2020-10-01T00:00:00.008,91,2020-10-01T00:00:00.918,0.325,P,1.92901225091191e-05

@@ -196,7 +196,8 @@ def pred_fn(args, data_reader, figure_dir=None, prob_dir=None, log_dir=None):
                 if not (isinstance(fname_batch, np.ndarray) or isinstance(fname_batch, list)):
                     fname_batch = [fname_batch.decode().rstrip(".mseed") + "_" + x.decode() for x in station_batch]
                 else:
-                    fname_batch = [x.decode() for x in fname_batch]
+                    # fname_batch = [x.decode() for x in fname_batch]
+                    fname_batch = [x for x in fname_batch]
                 save_prob_h5(pred_batch, fname_batch, prob_h5)
 
         if len(picks) > 0:

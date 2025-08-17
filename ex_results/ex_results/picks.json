@@ -1,0 +1,1206 @@
+[
+    {
+        "station_id": "CI.BOM..HH",
+        "file_name": "CI.BOM.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:27.288",
+        "phase_score": 0.767,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.BOM..HH",
+        "file_name": "CI.BOM.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:34.888",
+        "phase_score": 0.603,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.COA..HH",
+        "file_name": "CI.COA.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:03.178",
+        "phase_score": 0.787,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.COA..HH",
+        "file_name": "CI.COA.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:38.638",
+        "phase_score": 0.778,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.COA..HH",
+        "file_name": "CI.COA.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:15.438",
+        "phase_score": 0.908,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.COA..HH",
+        "file_name": "CI.COA.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:31.958",
+        "phase_score": 0.825,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.COA..HH",
+        "file_name": "CI.COA.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:30.408",
+        "phase_score": 0.878,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.COA..HH",
+        "file_name": "CI.COA.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:10.198",
+        "phase_score": 0.532,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.COA..HH",
+        "file_name": "CI.COA.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:22.328",
+        "phase_score": 0.386,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.COA..HH",
+        "file_name": "CI.COA.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:38.368",
+        "phase_score": 0.549,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.COA..HH",
+        "file_name": "CI.COA.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:47.428",
+        "phase_score": 0.688,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.COA..HH",
+        "file_name": "CI.COA.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:37.268",
+        "phase_score": 0.911,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.CRR..HH",
+        "file_name": "CI.CRR.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:01.578",
+        "phase_score": 0.669,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.CRR..HH",
+        "file_name": "CI.CRR.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:37.038",
+        "phase_score": 0.724,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.CRR..HH",
+        "file_name": "CI.CRR.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:13.798",
+        "phase_score": 0.912,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.CRR..HH",
+        "file_name": "CI.CRR.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:29.878",
+        "phase_score": 0.464,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.CRR..HH",
+        "file_name": "CI.CRR.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:41.238",
+        "phase_score": 0.941,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.CRR..HH",
+        "file_name": "CI.CRR.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:59.168",
+        "phase_score": 0.693,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.CRR..HH",
+        "file_name": "CI.CRR.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:28.638",
+        "phase_score": 0.563,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.CRR..HH",
+        "file_name": "CI.CRR.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:07.058",
+        "phase_score": 0.478,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.CRR..HH",
+        "file_name": "CI.CRR.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:42.138",
+        "phase_score": 0.542,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.CRR..HH",
+        "file_name": "CI.CRR.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:19.378",
+        "phase_score": 0.373,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.CRR..HH",
+        "file_name": "CI.CRR.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:44.278",
+        "phase_score": 0.373,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.CRR..HH",
+        "file_name": "CI.CRR.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:04.688",
+        "phase_score": 0.427,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.CRR..HH",
+        "file_name": "CI.CRR.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:33.908",
+        "phase_score": 0.47,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.DRE..HH",
+        "file_name": "CI.DRE.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:30.563",
+        "phase_score": 0.325,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.DRE..HH",
+        "file_name": "CI.DRE.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:06.643",
+        "phase_score": 0.66,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.ERR..HH",
+        "file_name": "CI.ERR.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:00.858",
+        "phase_score": 0.662,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.ERR..HH",
+        "file_name": "CI.ERR.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:57.008",
+        "phase_score": 0.813,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.ERR..HH",
+        "file_name": "CI.ERR.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:26.478",
+        "phase_score": 0.939,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.ERR..HH",
+        "file_name": "CI.ERR.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:01.308",
+        "phase_score": 0.639,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.ERR..HH",
+        "file_name": "CI.ERR.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:30.138",
+        "phase_score": 0.908,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.FRK..HH",
+        "file_name": "CI.FRK.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:00.993",
+        "phase_score": 0.843,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.FRK..HH",
+        "file_name": "CI.FRK.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:36.663",
+        "phase_score": 0.935,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.FRK..HH",
+        "file_name": "CI.FRK.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:02.313",
+        "phase_score": 0.814,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.FRK..HH",
+        "file_name": "CI.FRK.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:12.743",
+        "phase_score": 0.303,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.FRK..HH",
+        "file_name": "CI.FRK.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:29.583",
+        "phase_score": 0.962,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.FRK..HH",
+        "file_name": "CI.FRK.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:27.273",
+        "phase_score": 0.969,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.FRK..HH",
+        "file_name": "CI.FRK.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:06.193",
+        "phase_score": 0.513,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.FRK..HH",
+        "file_name": "CI.FRK.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:42.133",
+        "phase_score": 0.72,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.FRK..HH",
+        "file_name": "CI.FRK.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:18.913",
+        "phase_score": 0.678,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.FRK..HH",
+        "file_name": "CI.FRK.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:35.233",
+        "phase_score": 0.614,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.IMP..HH",
+        "file_name": "CI.IMP.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:33.458",
+        "phase_score": 0.894,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.IMP..HH",
+        "file_name": "CI.IMP.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:10.258",
+        "phase_score": 0.978,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.IMP..HH",
+        "file_name": "CI.IMP.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:25.998",
+        "phase_score": 0.968,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.IMP..HH",
+        "file_name": "CI.IMP.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:35.328",
+        "phase_score": 0.66,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.IMP..HH",
+        "file_name": "CI.IMP.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:55.438",
+        "phase_score": 0.957,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.IMP..HH",
+        "file_name": "CI.IMP.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:15.918",
+        "phase_score": 0.778,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.IMP..HH",
+        "file_name": "CI.IMP.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:25.168",
+        "phase_score": 0.965,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.IMP..HH",
+        "file_name": "CI.IMP.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:30.888",
+        "phase_score": 0.553,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.IMP..HH",
+        "file_name": "CI.IMP.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:38.188",
+        "phase_score": 0.808,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.IMP..HH",
+        "file_name": "CI.IMP.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:54.128",
+        "phase_score": 0.799,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.IMP..HH",
+        "file_name": "CI.IMP.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:01.538",
+        "phase_score": 0.859,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.IMP..HH",
+        "file_name": "CI.IMP.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:36.968",
+        "phase_score": 0.901,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.IMP..HH",
+        "file_name": "CI.IMP.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:13.768",
+        "phase_score": 0.926,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.IMP..HH",
+        "file_name": "CI.IMP.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:38.778",
+        "phase_score": 0.822,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.IMP..HH",
+        "file_name": "CI.IMP.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:58.808",
+        "phase_score": 0.899,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.IMP..HH",
+        "file_name": "CI.IMP.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:21.008",
+        "phase_score": 0.59,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.IMP..HH",
+        "file_name": "CI.IMP.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:28.588",
+        "phase_score": 0.86,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.IMP..HH",
+        "file_name": "CI.IMP.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:33.718",
+        "phase_score": 0.315,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.IMP..HH",
+        "file_name": "CI.IMP.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:41.788",
+        "phase_score": 0.481,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.IMP..HH",
+        "file_name": "CI.IMP.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:57.268",
+        "phase_score": 0.704,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.RXH..HH",
+        "file_name": "CI.RXH.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:00.013",
+        "phase_score": 0.351,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.RXH..HH",
+        "file_name": "CI.RXH.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:33.403",
+        "phase_score": 0.554,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.RXH..HH",
+        "file_name": "CI.RXH.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:58.783",
+        "phase_score": 0.788,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.RXH..HH",
+        "file_name": "CI.RXH.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:26.123",
+        "phase_score": 0.466,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.RXH..HH",
+        "file_name": "CI.RXH.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:23.183",
+        "phase_score": 0.978,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.RXH..HH",
+        "file_name": "CI.RXH.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:35.543",
+        "phase_score": 0.795,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.RXH..HH",
+        "file_name": "CI.RXH.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:12.093",
+        "phase_score": 0.569,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.RXH..HH",
+        "file_name": "CI.RXH.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:24.153",
+        "phase_score": 0.663,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.SAL..HH",
+        "file_name": "CI.SAL.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:02.063",
+        "phase_score": 0.769,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.SAL..HH",
+        "file_name": "CI.SAL.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:29.193",
+        "phase_score": 0.947,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.SGL..HH",
+        "file_name": "CI.SGL.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:02.188",
+        "phase_score": 0.913,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.SGL..HH",
+        "file_name": "CI.SGL.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:37.838",
+        "phase_score": 0.647,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.SGL..HH",
+        "file_name": "CI.SGL.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:14.568",
+        "phase_score": 0.812,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.SGL..HH",
+        "file_name": "CI.SGL.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:31.138",
+        "phase_score": 0.594,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.SGL..HH",
+        "file_name": "CI.SGL.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:39.778",
+        "phase_score": 0.535,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.SGL..HH",
+        "file_name": "CI.SGL.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:59.738",
+        "phase_score": 0.361,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.SGL..HH",
+        "file_name": "CI.SGL.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:29.418",
+        "phase_score": 0.859,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.SGL..HH",
+        "file_name": "CI.SGL.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:08.338",
+        "phase_score": 0.71,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.SGL..HH",
+        "file_name": "CI.SGL.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:20.488",
+        "phase_score": 0.56,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.SGL..HH",
+        "file_name": "CI.SGL.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:35.158",
+        "phase_score": 0.321,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.SGL..HH",
+        "file_name": "CI.SGL.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:39.838",
+        "phase_score": 0.318,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.SGL..HH",
+        "file_name": "CI.SGL.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:36.208",
+        "phase_score": 0.343,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.SLV..HH",
+        "file_name": "CI.SLV.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:04.173",
+        "phase_score": 0.688,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.SLV..HH",
+        "file_name": "CI.SLV.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:35.713",
+        "phase_score": 0.472,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.SLV..HH",
+        "file_name": "CI.SLV.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:38.193",
+        "phase_score": 0.517,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.SLV..HH",
+        "file_name": "CI.SLV.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:14.943",
+        "phase_score": 0.925,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.SLV..HH",
+        "file_name": "CI.SLV.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:37.923",
+        "phase_score": 0.62,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.SLV..HH",
+        "file_name": "CI.SLV.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:58.113",
+        "phase_score": 0.62,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.SLV..HH",
+        "file_name": "CI.SLV.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:09.783",
+        "phase_score": 0.455,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.SLV..HH",
+        "file_name": "CI.SLV.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:27.853",
+        "phase_score": 0.839,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.SLV..HH",
+        "file_name": "CI.SLV.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:04.243",
+        "phase_score": 0.361,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.SLV..HH",
+        "file_name": "CI.SLV.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:10.163",
+        "phase_score": 0.458,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.SLV..HH",
+        "file_name": "CI.SLV.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:40.103",
+        "phase_score": 0.595,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.SLV..HH",
+        "file_name": "CI.SLV.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:05.703",
+        "phase_score": 0.365,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.SLV..HH",
+        "file_name": "CI.SLV.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:23.083",
+        "phase_score": 0.393,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.SLV..HH",
+        "file_name": "CI.SLV.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:32.863",
+        "phase_score": 0.423,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.SLV..HH",
+        "file_name": "CI.SLV.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:42.273",
+        "phase_score": 0.574,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.SLV..HH",
+        "file_name": "CI.SLV.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:48.743",
+        "phase_score": 0.36,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.SLV..HH",
+        "file_name": "CI.SLV.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:02.573",
+        "phase_score": 0.847,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.SLV..HH",
+        "file_name": "CI.SLV.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:32.003",
+        "phase_score": 0.665,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.SLV..HH",
+        "file_name": "CI.SLV.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:38.483",
+        "phase_score": 0.481,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.SNR..HH",
+        "file_name": "CI.SNR.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:26.878",
+        "phase_score": 0.43,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.SNR..HH",
+        "file_name": "CI.SNR.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:04.218",
+        "phase_score": 0.44,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.SNR..HH",
+        "file_name": "CI.SNR.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:16.428",
+        "phase_score": 0.705,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.SNR..HH",
+        "file_name": "CI.SNR.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:32.168",
+        "phase_score": 0.721,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.SNR..HH",
+        "file_name": "CI.SNR.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:31.148",
+        "phase_score": 0.847,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.SWS..HH",
+        "file_name": "CI.SWS.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:00.158",
+        "phase_score": 0.436,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.SWS..HH",
+        "file_name": "CI.SWS.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:59.878",
+        "phase_score": 0.907,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.SWS..HH",
+        "file_name": "CI.SWS.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:01.848",
+        "phase_score": 0.358,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.SWS..HH",
+        "file_name": "CI.SWS.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:10.938",
+        "phase_score": 0.424,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.SWS..HH",
+        "file_name": "CI.SWS.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:26.938",
+        "phase_score": 0.726,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.SWS..HH",
+        "file_name": "CI.SWS.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:36.408",
+        "phase_score": 0.679,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.SWS..HH",
+        "file_name": "CI.SWS.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:56.138",
+        "phase_score": 0.914,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.SWS..HH",
+        "file_name": "CI.SWS.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:26.128",
+        "phase_score": 0.549,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.SWS..HH",
+        "file_name": "CI.SWS.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:28.058",
+        "phase_score": 0.472,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.SWS..HH",
+        "file_name": "CI.SWS.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:01.698",
+        "phase_score": 0.481,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.SWS..HH",
+        "file_name": "CI.SWS.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:37.278",
+        "phase_score": 0.316,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.SWS..HH",
+        "file_name": "CI.SWS.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:42.778",
+        "phase_score": 0.46,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.SWS..HH",
+        "file_name": "CI.SWS.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:01.898",
+        "phase_score": 0.383,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.SWS..HH",
+        "file_name": "CI.SWS.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:14.058",
+        "phase_score": 0.712,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.SWS..HH",
+        "file_name": "CI.SWS.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:19.648",
+        "phase_score": 0.664,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.SWS..HH",
+        "file_name": "CI.SWS.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:30.058",
+        "phase_score": 0.625,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.SWS..HH",
+        "file_name": "CI.SWS.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:29.058",
+        "phase_score": 0.596,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.WES..HH",
+        "file_name": "CI.WES.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:00.918",
+        "phase_score": 0.325,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.WMD..HH",
+        "file_name": "CI.WMD.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:00.018",
+        "phase_score": 0.739,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.WMD..HH",
+        "file_name": "CI.WMD.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:14.978",
+        "phase_score": 0.774,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.WMD..HH",
+        "file_name": "CI.WMD.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:30.898",
+        "phase_score": 0.955,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.WMD..HH",
+        "file_name": "CI.WMD.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:39.008",
+        "phase_score": 0.883,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.WMD..HH",
+        "file_name": "CI.WMD.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:56.328",
+        "phase_score": 0.986,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.WMD..HH",
+        "file_name": "CI.WMD.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:07.698",
+        "phase_score": 0.98,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.WMD..HH",
+        "file_name": "CI.WMD.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:15.448",
+        "phase_score": 0.977,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.WMD..HH",
+        "file_name": "CI.WMD.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:23.208",
+        "phase_score": 0.973,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.WMD..HH",
+        "file_name": "CI.WMD.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:32.918",
+        "phase_score": 0.972,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.WMD..HH",
+        "file_name": "CI.WMD.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:40.298",
+        "phase_score": 0.959,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.WMD..HH",
+        "file_name": "CI.WMD.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:53.018",
+        "phase_score": 0.672,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.WMD..HH",
+        "file_name": "CI.WMD.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:02.308",
+        "phase_score": 0.95,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.WMD..HH",
+        "file_name": "CI.WMD.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:14.408",
+        "phase_score": 0.918,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.WMD..HH",
+        "file_name": "CI.WMD.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:19.728",
+        "phase_score": 0.413,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.WMD..HH",
+        "file_name": "CI.WMD.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:22.818",
+        "phase_score": 0.578,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.WMD..HH",
+        "file_name": "CI.WMD.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:35.408",
+        "phase_score": 0.39,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.WMD..HH",
+        "file_name": "CI.WMD.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:51.658",
+        "phase_score": 0.327,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.WMD..HH",
+        "file_name": "CI.WMD.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:53.988",
+        "phase_score": 0.339,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.WMD..HH",
+        "file_name": "CI.WMD.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:16.998",
+        "phase_score": 0.759,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.WMD..HH",
+        "file_name": "CI.WMD.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:32.928",
+        "phase_score": 0.923,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.WMD..HH",
+        "file_name": "CI.WMD.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:40.738",
+        "phase_score": 0.754,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.WMD..HH",
+        "file_name": "CI.WMD.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:58.168",
+        "phase_score": 0.956,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.WMD..HH",
+        "file_name": "CI.WMD.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:09.698",
+        "phase_score": 0.945,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.WMD..HH",
+        "file_name": "CI.WMD.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:17.128",
+        "phase_score": 0.946,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.WMD..HH",
+        "file_name": "CI.WMD.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:24.998",
+        "phase_score": 0.935,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.WMD..HH",
+        "file_name": "CI.WMD.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:34.908",
+        "phase_score": 0.945,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.WMD..HH",
+        "file_name": "CI.WMD.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:42.108",
+        "phase_score": 0.916,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.WMD..HH",
+        "file_name": "CI.WMD.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:54.948",
+        "phase_score": 0.924,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.WMD..HH",
+        "file_name": "CI.WMD.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:04.058",
+        "phase_score": 0.926,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.WMD..HH",
+        "file_name": "CI.WMD.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:16.118",
+        "phase_score": 0.858,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.WMD..HH",
+        "file_name": "CI.WMD.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:24.758",
+        "phase_score": 0.907,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.WMD..HH",
+        "file_name": "CI.WMD.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:37.778",
+        "phase_score": 0.923,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.YUH2..HH",
+        "file_name": "CI.YUH2.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:03.438",
+        "phase_score": 0.874,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.YUH2..HH",
+        "file_name": "CI.YUH2.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:39.078",
+        "phase_score": 0.95,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.YUH2..HH",
+        "file_name": "CI.YUH2.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:05.098",
+        "phase_score": 0.576,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.YUH2..HH",
+        "file_name": "CI.YUH2.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:15.868",
+        "phase_score": 0.946,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.YUH2..HH",
+        "file_name": "CI.YUH2.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:31.818",
+        "phase_score": 0.621,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.YUH2..HH",
+        "file_name": "CI.YUH2.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:01.218",
+        "phase_score": 0.904,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.YUH2..HH",
+        "file_name": "CI.YUH2.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:30.768",
+        "phase_score": 0.815,
+        "phase_type": "P"
+    },
+    {
+        "station_id": "CI.YUH2..HH",
+        "file_name": "CI.YUH2.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:10.388",
+        "phase_score": 0.674,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.YUH2..HH",
+        "file_name": "CI.YUH2.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:00:46.708",
+        "phase_score": 0.743,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.YUH2..HH",
+        "file_name": "CI.YUH2.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:11.668",
+        "phase_score": 0.678,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.YUH2..HH",
+        "file_name": "CI.YUH2.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:23.578",
+        "phase_score": 0.571,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.YUH2..HH",
+        "file_name": "CI.YUH2.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:01:38.368",
+        "phase_score": 0.618,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.YUH2..HH",
+        "file_name": "CI.YUH2.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:37.338",
+        "phase_score": 0.594,
+        "phase_type": "S"
+    },
+    {
+        "station_id": "CI.YUH2..HH",
+        "file_name": "CI.YUH2.2020-10-01T00:00.mseed",
+        "phase_time": "2020-10-01T00:02:43.858",
+        "phase_score": 0.449,
+        "phase_type": "S"
+    }
+]

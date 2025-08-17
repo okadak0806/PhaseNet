@@ -12,8 +12,8 @@ from kafka import KafkaProducer
 from pydantic import BaseModel
 from scipy.interpolate import interp1d
 
-from model import ModelConfig, UNet
-from postprocess import extract_picks
+from .model import ModelConfig, UNet
+from .postprocess import extract_picks
 
 tf.compat.v1.disable_eager_execution()
 tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
